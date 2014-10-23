@@ -1,41 +1,252 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Lucie Bricard osteopathe animalier en Franche-Comte</title>
+<head> 
+  <title>Lucie Bricard osteopathe animalier en Franche-Comte</title>
+  <meta charset="utf-8">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
-<h1>Lucie Bricard</h1>
-<h2>Ost&eacute;opathe animalier</h2>
-<h3>Bienvenue</h3>
+
+<div class="container">
+
+  <h1 id="lucie">Lucie Bricard </h1>
+  <h3>Ostéopathe animalier</h3>
+
+  <header>
+<nav class="navbar navbar-default" role="navigation" id="mainnav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Accueil</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">L'ostéopathie animale</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultations <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+<li><a href="#">Cheval</a></li>
+<li><a href="#">Chien</a></li>
+<li><a href="#">Autre animal</a></li>
+          </ul>
+<li><a href="#">Contact</a></li>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  </header>
+
+<div id="my_carousel" class="carousel slide" data-ride="carousel">
+<!-- Bulles -->
+<ol class="carousel-indicators">
+<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+<li data-target="#my_carousel" data-slide-to="1"></li>
+<li data-target="#my_carousel" data-slide-to="2"></li>
+</ol>
+<!-- Slides -->
+<div class="carousel-inner">
+<!-- Page 1 -->
+<div class="item active">
+<div class="carousel-page">
+<img src="images/image.jpg" class="img-responsive" style="margin:0px auto;" />
+</div>
+<div class="carousel-caption"></div>
+</div>
+<!-- Page 2 -->
+<div class="item">
+<div class="carousel-page"><img src="images/chevalpres.jpg" class="img-responsive img-rounded"
+style="margin:0px auto;" /></div>
+<div class="carousel-caption"></div>
+</div>
+<!-- Page 3 -->
+<div class="item">
+<div class="carousel-page">
+<img src="images/chien.jpg" class="img-responsive img-rounded"
+style="margin:0px auto;max-height:100%;" />
+</div>
+<div class="carousel-caption"></div>
+</div>
+</div>
+<!-- Contrôles -->	
+<a class="left carousel-control" href="#my_carousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#my_carousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div>
+
+  <div class="row0">
+      <div class="col-md-3">
+        <img src="images/presentation.jpg" alt="presentation" class="img-circle" id="presentation">
+      </div> <!-- end col-md-1 -->
+      <div class="col-md-9">
+      <div class="presentation">
+       <h2>Bienvenue</h2>
+        <p>Passionnée par l'équitation depuis mon enfance, j'ai décidé de vivre ma passion par une autre approche : l'ostéopathie. Diplômée d'une formation de 5 ans à l'ESAO (European School of Animal Osteopathy) en Suisse puis en Angleterre, je travaille l'ostéopathie structurelle, viscérale, crânio-sacrée, lymphatique, tissulaire... En utilisant ces différentes techniques je m’assure de pouvoir rendre à votre animal toute la mobilité nécessaire pour son bien être et ses performances sportives. Je réside en Franche-Comté et me déplace dans tout l’est de la France.
+        </p>
+  </div>
+      </div>
+  </div>
+
+
+    <div class="row1">
+      <div class="col-md-10">
+        <h2 class="text-center">Consultations</h2>
+         <p class="text-center">Les performances de votre cheval diminuent, votre chien présente une baisse de forme... Pensez à l'ostéopathie.</p>
+         <div class="centered-button">
+          <a class="btn btn-success">En savoir plus</a>
+ <div class="col-md-9">
+         <img src="images/chien.jpg" alt="chien" class="img-circle" id="consultations">
+      
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Le Cheval
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+L’ostéopathe peut intervenir en préventif, pour un suivi sportif, en curatif ou en complément du vétérinaire.
+Voici quelques exemples, ou il est nécessaire de faire intervenir l’ostéopathe :
+-le cheval n’effectue plus les exercices demandés
+-il est rigide d’un côté
+-il n’accepte pas le mors
+-il est agressif quand on lui met la selle
+-ses performances diminuent
+-boiteries
+-traumatisme, convalescence après une opération
+-troubles digestifs
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Le Chien
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+L’ostéopathie s’adresse à tous les chiens quel que soit leur âge et leurs activités. Voici quelques signes qui peuvent vous interpeller :
+
+-un changement de comportement : fatigue, agressivité, plus de plaisir à jouer…
+-des problèmes digestifs (vomissement, amaigrissement, diarrhée…), urinaires, respiratoires (essoufflement rapide)
+-chez les chiens de travail, d’agility : baisse des performances
+-boiteries
+-raideurs lors de certains mouvements (refus de sauter sur le canapé)
+-traumatisme (chute, accident…)
+-convalescence après une opération
+-suivi de pathologie (dysplasie de la hanche, arthrose…)
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Les autres animaux
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-<img src="images/chien.jpg" alt="images/chien">
 
- <p> Passionn&eacute;e par l&#x2019;&eacute;quitation depuis mon enfance, j&#x2019;ai d&eacute;cid&eacute; de vivre ma passion par une autre approche l&#x2019;ost&eacute;opathie. Dipl&#xF4;m&eacute;e d&#x2019;une formation de 5 ans &#224; l&#x2019;ESAO (European School of Animal Osteopathy) en Suisse et Angleterre, je travaille l&#x2019;ost&eacute;opathie structurelle, visc&eacute;rale, cr&#xE2;nio-sacr&eacute;e, lymphatique, tissulaire... 
-En utilisant ces diff&eacute;rentes techniques je m&#x2019;assure de pouvoir rendre &#224; votre animal toute la mobilit&eacute; n&eacute;cessaire pour son bien &ecirc;tre et ses performances sportives. Je r&eacute;side en Franche-Comt&eacute; et me d&eacute;place dans tout l&#x2019;est de la France.</p> 
-
-
-<section>
-  <h2>Consultations</h2>
-  <p>Les performances de votre cheval diminuent, votre chien pr&eacute;sente une baisse de forme... Pensez &#224; l&#x2019;ost&eacute;opathie </p>
+      </div> <!-- end col-md-1 -->
+      </div> 
+    </div>
+ </div>
 
 
-</section>
- 
-<section>
-  <h2>L&rsquo;ost&eacute;opathie animale</h2>
-  <p>An important part of your page.</p>
-</section>
+  <div class="row2">
+      <div class="col-md-3">
+        <img src="images/chameau.jpg" alt="presentation" class="img-circle" id="presentation">
+      </div> <!-- end col-md-3-->
+      <div class="col-md-9">
+       <h2>L'ostéopathie animale</h2>
+        <p>Pourquoi faire soigner votre animal par l'ostéopathie ?</p>
+        <div class="centered-button">
+          <a class="btn btn-success">En savoir plus</a> </div>
+      </div>
+  </div>
+
+   <div class="row3">
+      <div class="col-md-3">
+         <img src="images/chien2.jpg" alt="presentation" class="img-circle" id="presentation">
+      </div> <!-- end col-md-1 -->
+      <div class="col-md-9">
+        <h2>Contactez-moi</h2>
+         <p>N'hésitez pas à me contacter pour en savoir plus et prendre rendez-vous. </p>
+         <div class="centered-button">
+          <a class="btn btn-success">Contactez-moi</a>
+ </div>
+      </div> <!-- end col-md-1 -->
+    </div>
+
+  </div>
 
 
-<section>
-  <h2>Contactez-moi</h2>
-  <p>An important part of your page.</p>
 
-
-</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
 </body>
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Contactez-moi
+</button>
+
+<!-- Modal displayed when a user clicks on the upper button -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contactez-moi</h4>
+      </div>
+      <div class="modal-body"
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Envoyer</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright <a href="http://www.bricard-osteoanimaux.com">Arnaud Maurivard</a> 2014</p>
+  <a href="http://www.bricard-osteoanimaux.com">Mentions légales</a>
+  
+  </footer>  
+</div> <!-- container -->
 </html>

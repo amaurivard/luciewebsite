@@ -1,0 +1,86 @@
+
+
+	body
+	{
+		background: #f0f0f0;
+	
+	}
+		
+	body
+	{
+		font-family: 'Source Sans Pro';
+		font-size: 20px;
+		color: #777;
+	}
+	
+	img {
+		height: 190px;
+		width: 190px;
+		}@
+
+	header{
+  		border-top: 3px solid #777;
+  		border-bottom: 3px solid #777;
+  	}
+	
+	h1,h2 {
+		font-weight: 900;
+		text-transform: uppercase;
+		color: #888;
+	}
+
+	nav ul li {
+	
+		font-size:20px;
+		display: inline;
+		color:#777;
+	}
+
+.carousel-page {
+width:100%;
+height:400px;
+background-color:#5f666d;
+color:green;
+}
+
+.centered-button {
+	text-align: center;
+}
+
+
+
+.row0 {
+	padding-top: 80px;
+}
+
+
+.row1  {
+	padding: 80px;
+}
+
+
+
+.row2 {
+	padding-top: 80px;
+}
+
+
+.row3 {
+	padding-top: 80px;
+}
+
+footer {
+	text-align: center;
+}
+
+.entete {
+	display: inline;
+}
+
+
+#mainnav.navbar-default {
+font-family: 'Source Sans Pro';
+
+	}
+
+
