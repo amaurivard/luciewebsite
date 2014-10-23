@@ -2,7 +2,7 @@
 
 	body
 	{
-		background: #334D5C;
+		background: #968D73;
 	
 	}
 		
@@ -10,7 +10,7 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-size: 20px;
-		color: #45B29D;
+		color: #4F4C41;
 	}
 	
 	
@@ -20,14 +20,14 @@
 	h1,h2 {
 		font-weight: 900;
 		text-transform: uppercase;
-		color: #45B29D;
+		color: #4F4C41;
 	}
 
 	nav ul li {
 	
 		font-size:20px;
 		display: inline;
-		color:#45B29D;
+		color:#4F4C41;
 	}
 
 
@@ -91,13 +91,13 @@ footer {
 #mainnav {
 	
 	border-color:#C3B470;
-	font-color:#45B29D;
+	font-color:#C3B470;
 }
 
 ul li a{
 
 
- color: #4F4C41;
+ color: ##4F4C41;
  
  }
 
