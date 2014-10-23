@@ -2,7 +2,7 @@
 
 	body
 	{
-		background: #f0f0f0;
+		background: #3A9D23;
 	
 	}
 		
@@ -10,33 +10,35 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-size: 20px;
-		color: #777;
+		color: #C3B470;
 	}
 	
 	
-	header{
-  		border-top: 3px solid #777;
-  		border-bottom: 3px solid #777;
-  	}
+
+  
 	
 	h1,h2 {
 		font-weight: 900;
 		text-transform: uppercase;
-		color: #888;
+		color: #C3B470;
 	}
 
 	nav ul li {
 	
 		font-size:20px;
 		display: inline;
-		color:#777;
+		color:#C3B470;
 	}
+
+
+
+
 
 .carousel-page {
 width:100%;
 height:400px;
-background-color:#5f666d;
-color:green;
+background-color:white;
+color:;
 }
 
 .centered-button {
@@ -46,9 +48,16 @@ color:green;
 
 
 .row0 {
+	border-image: 150px 150px;
 	padding-top: 80px;
+	border-image: 190px;
 }
 
+
+.row0 img { 
+	max-width: 100%;
+	height: auto;
+}
 
 .row1  {
 	padding: 80px;
@@ -73,10 +82,28 @@ footer {
 	display: inline;
 }
 
+#mainnav {
+	
+	border-color:#C3B470;
+	font-color:#C3B470;
+}
 
-#mainnav.navbar-default {
-font-family: 'Source Sans Pro';
+ul li a{
 
-	}
+
+ color: #C3B470;
+ 
+ }
+
+.collapse {
+	
+	text-align: center;
+}
+
+
+
+
+
+
 
 
