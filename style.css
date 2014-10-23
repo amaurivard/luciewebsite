@@ -2,7 +2,7 @@
 
 	body
 	{
-		background: #3A9D23;
+		background: #968D73;
 	
 	}
 		
@@ -10,7 +10,7 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-size: 20px;
-		color: #C3B470;
+		color: #4F4C41;
 	}
 	
 	
@@ -20,14 +20,14 @@
 	h1,h2 {
 		font-weight: 900;
 		text-transform: uppercase;
-		color: #C3B470;
+		color: #4F4C41;
 	}
 
 	nav ul li {
 	
 		font-size:20px;
 		display: inline;
-		color:#C3B470;
+		color:#4F4C41;
 	}
 
 
@@ -63,16 +63,22 @@ color:;
 	padding: 80px;
 }
 
+.row1 img { 
+	max-width: 100%;
+	height: auto;
+}
 
-
-.row2 {
-	padding-top: 80px;
+.row2 img { 
+	max-width: 100%;
+	height: auto;
 }
 
 
-.row3 {
-	padding-top: 80px;
+.row3 img { 
+	max-width: 100%;
+	height: auto;
 }
+
 
 footer {
 	text-align: center;
@@ -91,11 +97,11 @@ footer {
 ul li a{
 
 
- color: #C3B470;
+ color: #4F4C41;
  
  }
 
-.collapse {
+a collapse {
 	
 	text-align: center;
 }
