@@ -14,7 +14,6 @@
 	}
 	
 	
-
   
 	
 	h1,h2 {
@@ -23,14 +22,14 @@
 		color: #4F4C41;
 	}
 
-	nav ul li {
+	nav ul li a{
 	
 		font-size:20px;
 		display: inline;
 		color:#4F4C41;
+		font-family:'Source Sans Pro';
+
 	}
-
-
 
 
 
@@ -41,30 +40,47 @@ background-color:white;
 color:;
 }
 
-.centered-button {
-	text-align: center;
+
+@media (max-width:320px) {  /*small mobile*/
+  	
+  	
+
+  #mainimage {height:200px; width:100%;}
+
+	h1 {font-size: 300%;}
+
+	h2 {font-size: 175%}
+
+	h3 {font-size: 150%}
+
+	p {font-size: 100%}
+
 }
+
 
 
 
 .row0 {
-	border-image: 150px 150px;
+	
 	padding-top: 80px;
-	border-image: 190px;
+	
+	
 }
 
 
 .row0 img { 
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
-.row1  {
-	padding: 80px;
+.row1 {
+
+	padding-top: 300px;
+	display: center;
 }
 
 .row1 img { 
-	max-width: 100%;
+	max-width: 25%;
 	height: auto;
 }
 
@@ -80,22 +96,22 @@ color:;
 }
 
 
-footer {
-	text-align: center;
-}
 
-.entete {
-	display: inline;
-}
 
 #mainnav {
 	background-color:#4F4C41;
 	border-color:#968D73;
 	font-color:#C3B470;
+	
 }
 
-ul li a{
+#text1 {
+display: center;
+	
+}
 
+
+#consultations img 
 
  color: ##4F4C41;
  
@@ -111,5 +127,9 @@ h1 h3 {
  margin: 0px;
  }
 
-
-
+#footer{
+	background-color:#4F4C41;
+	border-color:#968D73;
+	font-color:#C3B470;
+	color:#C3B470;
+}
