@@ -32,6 +32,15 @@
 	}
 
 
+.entete img{
+	
+font-size: 20px;
+		display: inline;
+		
+
+	}
+
+
 
 .carousel-page {
 width:100%;
@@ -86,33 +95,37 @@ color:;
 	
 	padding-top: 80px;
 	
-	
 }
-
 
 .row0 img { 
 	max-width: 80%;
 	height: auto;
 }
 
-.row1 {
-
-
-	display: center;
+.consultations {
+	padding-top: 150px;
+	text-align: center;
 }
 
-.row1 img { 
+
+.contact { 
+	padding-top: 30px;
+
+}
+
+
+.consultations img { 
 	max-width: 25%;
 	height: auto;
 }
 
-.row2 { 
-	padding-top: 80px;
+.osteo { 
+	padding-top: 180px;
 
 }
 
 
-.row3 img { 
+.contact img { 
 	max-width: 100%;
 	height: auto;
 }
@@ -132,15 +145,8 @@ color:;
 
 
 
-#accordion {
-	
-	display: center;
-}
-
-
-
 #footer{
-	
+	padding-top: 50px;
 	border-color:#968D73;
 	font-color:#C3B470;
 	color:#C3B470;
