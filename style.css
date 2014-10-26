@@ -58,6 +58,28 @@ color:;
 }
 
 
+#collapseOne {
+		background: #968D73;
+		color: #4F4C41;
+		text-align:  center;
+	
+	}
+
+#collapseTwo {
+		background: #968D73;
+		color: #4F4C41;
+		text-align:  center;
+	
+	
+	}
+
+#collapseThree {
+		background: #968D73;
+		color: #4F4C41;
+		text-align:  center;
+		
+	
+	}
 
 
 .row0 {
@@ -75,7 +97,7 @@ color:;
 
 .row1 {
 
-	padding-top: 300px;
+
 	display: center;
 }
 
@@ -84,9 +106,9 @@ color:;
 	height: auto;
 }
 
-.row2 img { 
-	max-width: 100%;
-	height: auto;
+.row2 { 
+	padding-top: 80px;
+
 }
 
 
@@ -105,30 +127,20 @@ color:;
 	
 }
 
-#text1 {
-display: center;
-	
-}
 
 
-#consultations img 
 
- color: ##4F4C41;
- 
- }
+
 
 #accordion {
 	
 	display: center;
 }
 
-h1 h3 {
 
- margin: 0px;
- }
 
 #footer{
-	background-color:#4F4C41;
+	
 	border-color:#968D73;
 	font-color:#C3B470;
 	color:#C3B470;
