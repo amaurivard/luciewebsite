@@ -211,9 +211,43 @@ L’ostéopathe possède une connaissance approfondie de l’anatomie, des patho
       <div class="text-center">
       <div id="contact" class="contact">
         <h2>Contactez-moi </h2> 
-         <p>N'hésitez pas à me contacter pour en savoir plus et prendre rendez-vous. </p>
+         <p> <strong> N'hésitez pas à me contacter pour en savoir plus et prendre rendez-vous. </strong> </p>
          <div class="centered-button">
-          <a class="btn btn-success">Contactez-moi</a>
+        <button class="btn btn-success" data-toggle="modal" data-target="#myModal2">
+       Contactez-moi
+        </button>
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Formulaire de contact</h4>
+      </div>
+      <div class="modal-body">
+      <p> Vous pouvez me contacter en remplissant ce formulaire ou par téléphone au 06 42 57 98 81. <p>
+      <label for="name">Nom et prénom :</label>
+<input type="text" id="name" name="name" placeholder="Saisissez votre nom et prénom" /> <br>
+
+<label for="email">Email :</label>
+<input type="email" id="email" name="email"placeholder="Saisissez votre email" /> <br>
+
+<label for="residence">Objet :</label>
+<input type="text" id="objet" name="objet" placeholder="Saisissez l'objet de votre message" /> <br>
+
+<label for="message">Message:</label>
+<textarea name="message" cols="13" rows="9" id="message" placeholder="Ecrivez ici votre message"></textarea> <br>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Envoyer le message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
  </div>
       </div> <!-- end col-md-1 -->
     </div>
@@ -227,8 +261,7 @@ L’ostéopathe possède une connaissance approfondie de l’anatomie, des patho
                 <div class="col-md-6">
                   <a data-toggle="modal" data-target="#myModal">
   Mentions légales </a>
-</button>
-              
+</button>     
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">

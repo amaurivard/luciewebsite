@@ -31,15 +31,11 @@
 
 	}
 
-
-.entete img{
+.contact {
 	
-font-size: 20px;
-		display: inline;
-		
+		text-align: left;
 
 	}
-
 
 
 .carousel-page {
@@ -143,11 +139,10 @@ color:;
 
 
 
-
-
-#footer{
+.footer{
 	padding-top: 50px;
 	border-color:#968D73;
 	font-color:#C3B470;
-	color:#C3B470;
+	color:#C3B470
+	text-align: center;
 }
