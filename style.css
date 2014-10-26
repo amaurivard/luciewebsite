@@ -103,10 +103,6 @@ background-color:white;
 }
 
 
-.contact { 
-	padding-top: 30px;
-
-}
 
 
 .consultations img { 
@@ -115,16 +111,23 @@ background-color:white;
 }
 
 .osteo { 
-	padding-top: 200px;
+	padding-top: 40px;
 
 }
 
-
+.osteo img { 
+	max-width: 80%;
+	height: auto;
+}
 .contact img { 
 	max-width: 100%;
 	height: auto;
 }
 
+.contact { 
+	padding-top: 450px;
+
+}
 
 
 
@@ -137,11 +140,9 @@ background-color:white;
 
 
 
-
-.footer{
+#footer {
 	padding-top: 50px;
-	border-color:#968D73;
-	font-color:#C3B470;
-	color:#C3B470
+	background-color: #4F4C41;
 	text-align: center;
-}
+	}
+
